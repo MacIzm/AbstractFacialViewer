@@ -1,0 +1,2 @@
+C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\AutsimApp2.csproj;x86
+C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
