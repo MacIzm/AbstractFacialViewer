@@ -15784,7 +15784,7 @@
       "projectPath": "C:\\Users\\Macizm\\Desktop\\Grad Stuff\\AR - VR Research\\AutsimApp2\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectJsonPath": "C:\\Users\\Macizm\\Desktop\\Grad Stuff\\AR - VR Research\\AutsimApp2\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\Macizm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Macizm\\Desktop\\Grad Stuff\\AR - VR Research\\AutsimApp2\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\ARM\\Debug\\",
+      "outputPath": "C:\\Users\\Macizm\\Desktop\\Grad Stuff\\AR - VR Research\\AutsimApp2\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Debug\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"

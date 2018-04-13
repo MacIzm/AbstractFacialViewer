@@ -358,7 +358,7 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{44ab188b-2a84-4cbc-b599-d85917868716}</Project>
+      <Project>{7b1abde6-3513-486a-82ba-aef771667133}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>

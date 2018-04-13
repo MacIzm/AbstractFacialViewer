@@ -27,6 +27,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 9ca6347af5ceb6b0d1c105af31b6722e UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 5252dab092fdac4d4b5eec1e7253d568 Assembly-CSharp.dll:HoloToolkit.Unity.SolverConstantViewSize
 6b65f31824988366512541d7c532ee8b Assembly-CSharp.dll:HoloToolkit.Unity.SpatialMapping.ObjectSurfaceObserver
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UniqueListener
 6be96e34ec56d8306ef9c5afb1661e60 Assembly-CSharp.dll:HoloToolkit.Sharing.Utilities.ManualIpConfiguration
 36d4489abba0e98ace566556e1deeaba Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonSoundProfile
 70121049c716c4de503e63824a1eab39 Assembly-CSharp.dll:HoloToolkit.Unity.UX.LineObjectFollower
@@ -40,6 +41,7 @@ c1f1b3627c7e19aef2ba0762a3785f80 Assembly-CSharp.dll:HoloToolkit.Unity.TextToSpe
 b2a36b1a2bf9a27cacd7eb66b78ffc76 Assembly-CSharp.dll:HoloToolkit.Sharing.SharingStage
 53b4b0917610f0ddbd7927228eb839ba Assembly-CSharp.dll:HoloToolkit.Unity.UX.Rectangle
 2396c890cd0961e1517607a563ce1378 Assembly-CSharp.dll:HoloToolkit.Unity.Collections.ObjectCollectionDynamic
+3455723dcdca1804dbd974c2e0b4f789 Assembly-CSharp.dll:.LoadScence
 8f169dce821c015a46453dde906ba3f7 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.CursorModifier
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.RegisterPointableCanvas
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -179,6 +181,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 e1aa8fa2d37d6483e8f5f4ef15c12072 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.AnimControllerButton
 9304e440bbb09edb0213939e09d91f73 Assembly-CSharp.dll:HoloToolkit.Unity.SolverSurfaceMagnetism
 047eb998adc2d948ddc55c599621cd6b Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.RawInteractionInputSource
+4d7ca4ddd24ab07403f7d8eb38ae5488 Assembly-CSharp.dll:.Rotate
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 0561521e336e270e6e5a9c61387cb838 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 2e0fd93f459db951da0e2e94e2e33fb7 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -326,6 +329,7 @@ c1ac6462c82be12ebeffcf18f5562cce Assembly-CSharp.dll:HoloToolkit.Unity.NearPlane
 96d0fbde9fd209878a0a291f82c9bcdd UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 dcd03b8c3fdf7f3a189ae064a436ad12 Assembly-CSharp.dll:HoloToolkit.Unity.GpuTimingCamera
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BackToMain
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 8e2d7a26f8aa5dc9b49742e37f8adc9a Assembly-CSharp.dll:HoloToolkit.Unity.AdaptiveQuality
 79b43dd87d6a06e44806ac1c41e7835e Assembly-CSharp.dll:HoloToolkit.Unity.SpatialMapping.SpatialMappingManager
@@ -415,6 +419,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 26dab8c3769b5c279169efdc2a5d2bd1 Assembly-CSharp.dll:UnityGLTF.GLTFComponent
+1fd8d1df4c508d43a9bf8479fef28e69 Assembly-CSharp.dll:.HUD
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LineBaseEditor
 aa573da5178a98cdf7ef39d22614bb9b Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButton
 26215f135eeb48d8fa1189498c107f6c Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
@@ -452,8 +457,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-3455723dcdca1804dbd974c2e0b4f789 Assembly-CSharp.dll:.LoadScence
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UniqueListener
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BackToMain
-4d7ca4ddd24ab07403f7d8eb38ae5488 Assembly-CSharp.dll:.Rotate
-1fd8d1df4c508d43a9bf8479fef28e69 Assembly-CSharp.dll:.HUD
