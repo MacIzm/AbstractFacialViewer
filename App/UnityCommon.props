@@ -1,8 +1,8 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <UnityWSASolutionName>AutsimApp2</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\Vineeth\Documents\AutismApp\App\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\Vineeth\Documents\AutismApp\</UnityProjectDir>
+        <UnityWSASolutionDir>C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\</UnityProjectDir>
         <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>

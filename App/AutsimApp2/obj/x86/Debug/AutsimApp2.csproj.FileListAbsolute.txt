@@ -304,3 +304,5 @@ C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\ob
 C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\UnityEngine.SpatialTracking.dll
+C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\UnityEngine.SpatialTracking.pdb

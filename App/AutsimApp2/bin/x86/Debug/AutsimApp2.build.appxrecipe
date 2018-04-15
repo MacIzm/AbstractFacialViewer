@@ -515,9 +515,6 @@
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.PhysicsModule.dll">
-      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
     </AppxPackagedFile>
@@ -565,6 +562,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.PhysicsModule.dll">
+      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
@@ -640,6 +640,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.SpatialTracking.dll">
+      <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>

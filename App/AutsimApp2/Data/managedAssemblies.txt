@@ -5,6 +5,7 @@ UnityEngine.TilemapModule.dll
 UnityEngine.UIElementsModule.dll
 UnityEngine.SharedInternalsModule.dll
 UnityEngine.ScreenCaptureModule.dll
+UnityEngine.PhysicsModule.dll
 UnityEngine.SpriteMaskModule.dll
 UnityEngine.StyleSheetsModule.dll
 UnityEngine.SpriteShapeModule.dll
@@ -21,7 +22,6 @@ UnityEngine.UnityConnectModule.dll
 UnityEngine.UnityWebRequestTextureModule.dll
 UnityEngine.UnityWebRequestModule.dll
 UnityEngine.UnityWebRequestAudioModule.dll
-UnityEngine.PhysicsModule.dll
 UnityEngine.AssetBundleModule.dll
 UnityEngine.ARModule.dll
 UnityEngine.AnimationModule.dll
@@ -47,7 +47,6 @@ Newtonsoft.Json.dll
 UnityEngine.Timeline.dll
 nunit.framework.dll
 UnityEngine.UI.dll
-UnityEngine.SpatialTracking.dll
 UnityEngine.Analytics.dll
 UnityEngine.HoloLens.dll
 UnityEngine.StandardEvents.dll

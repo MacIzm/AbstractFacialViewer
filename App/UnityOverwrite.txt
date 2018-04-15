@@ -7,7 +7,7 @@
 # Default behavior is to never overwrite files
 AutsimApp2.sln: modified
 AutsimApp2\App.cs: modified
-AutsimApp2\AutsimApp2.csproj: 75B4177786CED067889F0C5D2FE4064C
+AutsimApp2\AutsimApp2.csproj: modified
 AutsimApp2\AutsimApp2.csproj.user: modified
 AutsimApp2\Package.appxmanifest: 580D2A435448FF5A4E1EA7ABB03CCB94
 AutsimApp2\project.json: 1D02BC64BAC0D041019673A1C4C51737

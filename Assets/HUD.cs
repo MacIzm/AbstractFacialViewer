@@ -222,9 +222,9 @@ private async void getPicturesFolderAsync()
 
     void btnToShow()
     {
-        GameObject light = GameObject.Find("Directional Light");
+        //GameObject light = GameObject.Find("Directional Light");
         Vector3 loc = GameObject.Find("Cursor").transform.localPosition;
-        light.transform.SetPositionAndRotation(light.transform.position, playerCamera.transform.localRotation);
+       // light.transform.SetPositionAndRotation(light.transform.position, playerCamera.transform.localRotation);
         responsePanel.transform.SetPositionAndRotation(new Vector3(loc.x,loc.y,loc.z), playerCamera.transform.localRotation);
         responsePanel.transform.Find("happiness").gameObject.SetActive(true);
         responsePanel.transform.Find("neutral").gameObject.SetActive(true);
