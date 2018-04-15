@@ -6,8 +6,8 @@
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
 AutsimApp2.sln: modified
-AutsimApp2\App.cs: 5F3156C37F3991077B060BB65D57AEB7
-AutsimApp2\AutsimApp2.csproj: 6FB6D415C9BCAA21075DCA28AD264E8D
+AutsimApp2\App.cs: modified
+AutsimApp2\AutsimApp2.csproj: 75B4177786CED067889F0C5D2FE4064C
 AutsimApp2\AutsimApp2.csproj.user: modified
 AutsimApp2\Package.appxmanifest: 580D2A435448FF5A4E1EA7ABB03CCB94
 AutsimApp2\project.json: 1D02BC64BAC0D041019673A1C4C51737

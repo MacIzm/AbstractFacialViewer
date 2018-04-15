@@ -193,9 +193,6 @@
     <Reference Include="UnityEngine.ScreenCaptureModule">
       <HintPath>.\Unprocessed\UnityEngine.ScreenCaptureModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>.\Unprocessed\UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.SpriteMaskModule">
       <HintPath>.\Unprocessed\UnityEngine.SpriteMaskModule.dll</HintPath>
     </Reference>
@@ -246,6 +243,9 @@
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
       <HintPath>.\Unprocessed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>.\Unprocessed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
       <HintPath>.\Unprocessed\UnityEngine.AssetBundleModule.dll</HintPath>
@@ -324,6 +324,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>.\Unprocessed\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>.\Unprocessed\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
     <Content Include="MicStreamSelector.dll" />
     <Content Include="MicStreamSelector.pdb" Condition="Exists('MicStreamSelector.pdb')" />
     <Reference Include="UnityEngine.Analytics">
@@ -357,8 +360,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{7b1abde6-3513-486a-82ba-aef771667133}</Project>
+    <ProjectReference Include="C:\Users\Vineeth\Documents\AutismApp\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
+      <Project>{929d205f-3ad8-4d08-a79c-5d8ceedeff24}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
@@ -443,7 +446,7 @@
            <RemoveDebuggableAttribute>False</RemoveDebuggableAttribute>
         </PropertyGroup>
         <Message Importance="high" Text="Running AssemblyConverter..." />
-        <Exec Command="&quot;$(UnityWSAToolsDir)AssemblyConverter.exe&quot; -platform=uap -lock=&quot;$(ProjectDir)project.lock.json&quot; -bits=$(UnityBits) -configuration=$(Configuration) -removeDebuggableAttribute=$(RemoveDebuggableAttribute) -uwpsdk=$(TargetPlatformVersion) -path=&quot;.&quot; -path=&quot;$(UnityWSAPlayerDir)Players\UAP\dotnet\$(PlatformTarget)\$(Configuration)&quot; &quot;$(ProjectDir)Assembly-CSharp.dll&quot; &quot;$(ProjectDir)UnityEngine.TextRenderingModule.dll&quot; &quot;$(ProjectDir)UnityEngine.TerrainPhysicsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.TerrainModule.dll&quot; &quot;$(ProjectDir)UnityEngine.TilemapModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UIElementsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.SharedInternalsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ScreenCaptureModule.dll&quot; &quot;$(ProjectDir)UnityEngine.PhysicsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.SpriteMaskModule.dll&quot; &quot;$(ProjectDir)UnityEngine.StyleSheetsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.SpriteShapeModule.dll&quot; &quot;$(ProjectDir)UnityEngine.VideoModule.dll&quot; &quot;$(ProjectDir)UnityEngine.VehiclesModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestWWWModule.dll&quot; &quot;$(ProjectDir)UnityEngine.VRModule.dll&quot; &quot;$(ProjectDir)UnityEngine.WindModule.dll&quot; &quot;$(ProjectDir)UnityEngine.WebModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityAnalyticsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UNETModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UIModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityConnectModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestTextureModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestAudioModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AssetBundleModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ARModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AnimationModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AudioModule.dll&quot; &quot;$(ProjectDir)UnityEngine.CrashReportingModule.dll&quot; &quot;$(ProjectDir)UnityEngine.CoreModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ClothModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AIModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AccessibilityModule.dll&quot; &quot;$(ProjectDir)UnityEngine.JSONSerializeModule.dll&quot; &quot;$(ProjectDir)UnityEngine.InputModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ParticlesLegacyModule.dll&quot; &quot;$(ProjectDir)UnityEngine.Physics2DModule.dll&quot; &quot;$(ProjectDir)UnityEngine.PerformanceReportingModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ParticleSystemModule.dll&quot; &quot;$(ProjectDir)UnityEngine.GameCenterModule.dll&quot; &quot;$(ProjectDir)UnityEngine.dll&quot; &quot;$(ProjectDir)UnityEngine.DirectorModule.dll&quot; &quot;$(ProjectDir)UnityEngine.GridModule.dll&quot; &quot;$(ProjectDir)UnityEngine.IMGUIModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ImageConversionModule.dll&quot; &quot;$(ProjectDir)Newtonsoft.Json.dll&quot; &quot;$(ProjectDir)UnityEngine.Timeline.dll&quot; &quot;$(ProjectDir)nunit.framework.dll&quot; &quot;$(ProjectDir)UnityEngine.UI.dll&quot; &quot;$(ProjectDir)UnityEngine.Analytics.dll&quot; &quot;$(ProjectDir)UnityEngine.HoloLens.dll&quot; &quot;$(ProjectDir)UnityEngine.StandardEvents.dll&quot; &quot;$(ProjectDir)UnityEngine.Networking.dll&quot; &quot;$(ProjectDir)GLTFSerializationUWP.dll&quot;" />
+        <Exec Command="&quot;$(UnityWSAToolsDir)AssemblyConverter.exe&quot; -platform=uap -lock=&quot;$(ProjectDir)project.lock.json&quot; -bits=$(UnityBits) -configuration=$(Configuration) -removeDebuggableAttribute=$(RemoveDebuggableAttribute) -uwpsdk=$(TargetPlatformVersion) -path=&quot;.&quot; -path=&quot;$(UnityWSAPlayerDir)Players\UAP\dotnet\$(PlatformTarget)\$(Configuration)&quot; &quot;$(ProjectDir)Assembly-CSharp.dll&quot; &quot;$(ProjectDir)UnityEngine.TextRenderingModule.dll&quot; &quot;$(ProjectDir)UnityEngine.TerrainPhysicsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.TerrainModule.dll&quot; &quot;$(ProjectDir)UnityEngine.TilemapModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UIElementsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.SharedInternalsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ScreenCaptureModule.dll&quot; &quot;$(ProjectDir)UnityEngine.SpriteMaskModule.dll&quot; &quot;$(ProjectDir)UnityEngine.StyleSheetsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.SpriteShapeModule.dll&quot; &quot;$(ProjectDir)UnityEngine.VideoModule.dll&quot; &quot;$(ProjectDir)UnityEngine.VehiclesModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestWWWModule.dll&quot; &quot;$(ProjectDir)UnityEngine.VRModule.dll&quot; &quot;$(ProjectDir)UnityEngine.WindModule.dll&quot; &quot;$(ProjectDir)UnityEngine.WebModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityAnalyticsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UNETModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UIModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityConnectModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestTextureModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestModule.dll&quot; &quot;$(ProjectDir)UnityEngine.UnityWebRequestAudioModule.dll&quot; &quot;$(ProjectDir)UnityEngine.PhysicsModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AssetBundleModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ARModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AnimationModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AudioModule.dll&quot; &quot;$(ProjectDir)UnityEngine.CrashReportingModule.dll&quot; &quot;$(ProjectDir)UnityEngine.CoreModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ClothModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AIModule.dll&quot; &quot;$(ProjectDir)UnityEngine.AccessibilityModule.dll&quot; &quot;$(ProjectDir)UnityEngine.JSONSerializeModule.dll&quot; &quot;$(ProjectDir)UnityEngine.InputModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ParticlesLegacyModule.dll&quot; &quot;$(ProjectDir)UnityEngine.Physics2DModule.dll&quot; &quot;$(ProjectDir)UnityEngine.PerformanceReportingModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ParticleSystemModule.dll&quot; &quot;$(ProjectDir)UnityEngine.GameCenterModule.dll&quot; &quot;$(ProjectDir)UnityEngine.dll&quot; &quot;$(ProjectDir)UnityEngine.DirectorModule.dll&quot; &quot;$(ProjectDir)UnityEngine.GridModule.dll&quot; &quot;$(ProjectDir)UnityEngine.IMGUIModule.dll&quot; &quot;$(ProjectDir)UnityEngine.ImageConversionModule.dll&quot; &quot;$(ProjectDir)Newtonsoft.Json.dll&quot; &quot;$(ProjectDir)UnityEngine.Timeline.dll&quot; &quot;$(ProjectDir)nunit.framework.dll&quot; &quot;$(ProjectDir)UnityEngine.UI.dll&quot; &quot;$(ProjectDir)UnityEngine.SpatialTracking.dll&quot; &quot;$(ProjectDir)UnityEngine.Analytics.dll&quot; &quot;$(ProjectDir)UnityEngine.HoloLens.dll&quot; &quot;$(ProjectDir)UnityEngine.StandardEvents.dll&quot; &quot;$(ProjectDir)UnityEngine.Networking.dll&quot; &quot;$(ProjectDir)GLTFSerializationUWP.dll&quot;" />
         <Message Importance="high" Text="AssemblyConverter done." />
         <Message Importance="high" Text="Modifying AppxPackagePayload" />
         <ItemGroup>
@@ -502,14 +505,6 @@
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.ScreenCaptureModule.pdb'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.ScreenCaptureModule.pdb">
                 <TargetPath>UnityEngine.ScreenCaptureModule.pdb</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.dll">
-                <TargetPath>UnityEngine.PhysicsModule.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.pdb">
-                <TargetPath>UnityEngine.PhysicsModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SpriteMaskModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpriteMaskModule.dll">
@@ -638,6 +633,14 @@
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UnityWebRequestAudioModule.pdb'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UnityWebRequestAudioModule.pdb">
                 <TargetPath>UnityEngine.UnityWebRequestAudioModule.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.dll">
+                <TargetPath>UnityEngine.PhysicsModule.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.PhysicsModule.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.PhysicsModule.pdb">
+                <TargetPath>UnityEngine.PhysicsModule.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.AssetBundleModule.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.AssetBundleModule.dll">
@@ -838,6 +841,14 @@
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.UI.pdb'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.UI.pdb">
                 <TargetPath>UnityEngine.UI.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SpatialTracking.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpatialTracking.dll">
+                <TargetPath>UnityEngine.SpatialTracking.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.SpatialTracking.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)UnityEngine.SpatialTracking.pdb">
+                <TargetPath>UnityEngine.SpatialTracking.pdb</TargetPath>
             </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'UnityEngine.Analytics.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.Analytics.dll">

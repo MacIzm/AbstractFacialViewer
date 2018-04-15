@@ -45,8 +45,9 @@ public class HUD : MonoBehaviour,
     public string passon;
     public GameObject responsePanel;
     public GameObject parent;
-    int CorrectCounter = 0;
-    int IncorrectCounter = 0;
+    public static int CorrectCounter = 0;
+    public static int IncorrectCounter = 0;
+    public static Camera playerCamera;
     //int correctPT;
     //int cPT;
     GameObject plane;
@@ -75,8 +76,8 @@ public class HUD : MonoBehaviour,
     // Use this for initialization
     public void Start()
     {
-       
-        
+
+        playerCamera = Camera.main;
         BigFolder = Application.persistentDataPath;
         plane = GameObject.Find("Canvas").transform.Find("Plane").gameObject;
         //canvas = GameObject.Find("Canvas");
@@ -132,25 +133,31 @@ public class HUD : MonoBehaviour,
 
     public void Show()
     {
-        GameObject.Find("ResponsePanel").transform.Find("happiness").gameObject.SetActive(false);
-        GameObject.Find("ResponsePanel").transform.Find("neutral").gameObject.SetActive(false);
-        GameObject.Find("ResponsePanel").transform.Find("sadness").gameObject.SetActive(false);
-        GameObject.Find("ResponsePanel").transform.Find("anger").gameObject.SetActive(false);
+        GameObject responePanel = GameObject.Find("ResponsePanel");
+        responePanel.transform.Find("happiness").gameObject.SetActive(false);
+        responePanel.transform.Find("neutral").gameObject.SetActive(false);
+        responePanel.transform.Find("sadness").gameObject.SetActive(false);
+        responePanel.transform.Find("anger").gameObject.SetActive(false);
         
         var passon =GameObject.Find("Canvas").GetComponent<HUD>().passon;
 
         Debug.Log("pass on ---> " + passon);
         if (name == passon)
         {
-
-            GameObject.Find("Correct").transform.Find("Plane").gameObject.SetActive(true);
-            GameObject.Find("Canvas").GetComponent<HUD>().CorrectCounter += 1;
+            GameObject correct = GameObject.Find("Correct");
+            Vector3 loc = GameObject.Find("Cursor").transform.localPosition;
+            correct.transform.SetPositionAndRotation(loc, playerCamera.transform.localRotation);
+            correct.transform.Find("Plane").gameObject.SetActive(true);
+            CorrectCounter = CorrectCounter + 1;
            plane.transform.Find("CorrectValue").GetComponent<TextMesh>().text = CorrectCounter.ToString();
         }
         else
         {
-            GameObject.Find("Incorrect").transform.Find("Plane").gameObject.SetActive(true);
-            GameObject.Find("Canvas").GetComponent<HUD>().IncorrectCounter += 1;
+            GameObject incorrect = GameObject.Find("Incorrect");
+            Vector3 loc = GameObject.Find("Cursor").transform.localPosition;
+            incorrect.transform.SetPositionAndRotation(loc, playerCamera.transform.localRotation);
+            incorrect.transform.Find("Plane").gameObject.SetActive(true);
+            IncorrectCounter = IncorrectCounter + 1;
             plane.transform.Find("IncorrectValue").GetComponent<TextMesh>().text = IncorrectCounter.ToString();
         }
 
@@ -215,6 +222,10 @@ private async void getPicturesFolderAsync()
 
     void btnToShow()
     {
+        GameObject light = GameObject.Find("Directional Light");
+        Vector3 loc = GameObject.Find("Cursor").transform.localPosition;
+        light.transform.SetPositionAndRotation(light.transform.position, playerCamera.transform.localRotation);
+        responsePanel.transform.SetPositionAndRotation(new Vector3(loc.x,loc.y,loc.z), playerCamera.transform.localRotation);
         responsePanel.transform.Find("happiness").gameObject.SetActive(true);
         responsePanel.transform.Find("neutral").gameObject.SetActive(true);
         responsePanel.transform.Find("sadness").gameObject.SetActive(true);
