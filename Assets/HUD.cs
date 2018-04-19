@@ -92,7 +92,7 @@ public class HUD : MonoBehaviour,
         keywordRecognizer.Start();*/
 
         //startBtn.GetComponent<Button>().onClick.AddListener(Screenshot);
-        Debug.Log(destroyed);
+        //Debug.Log(destroyed);
         responsePanel = GameObject.Find("ResponsePanel");
 #if NETFX_CORE
         getPicturesFolderAsync();
@@ -222,9 +222,10 @@ private async void getPicturesFolderAsync()
 
     void btnToShow()
     {
-        //GameObject light = GameObject.Find("Directional Light");
+        GameObject light = GameObject.Find("Directional Light");
         Vector3 loc = GameObject.Find("Cursor").transform.localPosition;
-       // light.transform.SetPositionAndRotation(light.transform.position, playerCamera.transform.localRotation);
+        light.transform.SetPositionAndRotation(light.transform.position, playerCamera.transform.localRotation);
+        light.transform.SetPositionAndRotation(light.transform.position, playerCamera.transform.localRotation);
         responsePanel.transform.SetPositionAndRotation(new Vector3(loc.x,loc.y,loc.z), playerCamera.transform.localRotation);
         responsePanel.transform.Find("happiness").gameObject.SetActive(true);
         responsePanel.transform.Find("neutral").gameObject.SetActive(true);
@@ -328,12 +329,12 @@ private async void getPicturesFolderAsync()
             //filePath = System.IO.Path.Combine(Application.persistentDataPath, file);
             //File.Move(tempFilePathAndName, System.IO.Path.Combine(pictureFolderPath, "Camera Roll", System.IO.Path.GetFileName(tempFilePathAndName)));
             
-                Debug.Log("path: " + tempFilePathAndName);
+                //Debug.Log("path: " + tempFilePathAndName);
                 image = File.ReadAllBytes(tempFilePathAndName);
                 immy = File.ReadAllBytes(tempFilePathAndName);
                 //image = GetImageAsByteArray(tempFilePathAndName);
-                Debug.Log("Image Byte - "+image[0]);
-                Debug.Log("Image Byte - " + BitConverter.ToString(immy));
+                //Debug.Log("Image Byte - "+image[0]);
+                //Debug.Log("Image Byte - " + BitConverter.ToString(immy));
                 GetTagsAndFaces(image);
                  Debug.Log("Must be be netfx_core ");
             
@@ -366,14 +367,14 @@ private async void getPicturesFolderAsync()
     }
 
     string _subscriptionKey = "b3e86dbeb3be4c9ca1b7d41726f38cfd";
-    string _faceAPIKey = "478d9e749a874ae492631d1b61ed141a";
+    string _faceAPIKey = "d53ada67cee9431fae6cb7fcd3878f7f";
     string _computerVisionEndpoint = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0/analyze?visualFeatures=Tags,Faces";
     string _faceAPIEndpoint = "https://westcentralus.api.cognitive.microsoft.com/face/v1.0/detect?returnFaceId=false&returnFaceLandmarks=false&returnFaceAttributes=emotion";//age,gender,headPose,smile,facialHair,glasses,hair,makeup,occlusion,accessories,blur,exposure,noise
 
     public void GetTagsAndFaces(byte[] image)
     {
         Debug.Log("In Get Tags and Faces");
-        Debug.Log("Image Byte[] - " + BitConverter.ToString(image));
+        //Debug.Log("Image Byte[] - " + BitConverter.ToString(image));
 
 #if NETFX_CORE
    RunCV(image);
@@ -482,7 +483,7 @@ private async void getPicturesFolderAsync()
     {
 
         Debug.Log("In Run Computer Vision");
-        Debug.Log("Image Byte - " + BitConverter.ToString(image));
+        //Debug.Log("Image Byte - " + BitConverter.ToString(image));
         var headers = new Dictionary<string, string>() {
         { "Ocp-Apim-Subscription-Key", _faceAPIKey },
         { "Content-Type", "application/octet-stream" }//_subscriptionKey
@@ -496,8 +497,8 @@ private async void getPicturesFolderAsync()
 
         var jsonResults = www.text;
         
-        Debug.Log("Json results " + jsonResults);
-        Debug.Log("Type - "+jsonResults.GetType());
+        Debug.Log("Json results " + JsonPrettyPrint(www.text));
+        //Debug.Log("Type - "+jsonResults.GetType());
         this.passon = "anger";
        /*var js = new JavaScriptSerializer();
 

@@ -9,7 +9,7 @@ AutsimApp2.sln: modified
 AutsimApp2\App.cs: modified
 AutsimApp2\AutsimApp2.csproj: modified
 AutsimApp2\AutsimApp2.csproj.user: modified
-AutsimApp2\Package.appxmanifest: 580D2A435448FF5A4E1EA7ABB03CCB94
+AutsimApp2\Package.appxmanifest: modified
 AutsimApp2\project.json: 1D02BC64BAC0D041019673A1C4C51737
 AutsimApp2\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 AutsimApp2\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

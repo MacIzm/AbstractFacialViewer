@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0E722C8FE06843A02D926F8651C1D7192A45D2F93399A53555FA31163E34D395</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>4C59007533BD750E339D39DF71C7298B87915C30C9502C4468035217CCF44A5B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>AutsimApp2_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>AutsimApp2_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>AutsimApp2</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-19T17:09:04.421</Modified>
+      <Modified>2018-04-19T18:41:15.768</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\AutsimApp2.exe">
       <PackagePath>entrypoint\AutsimApp2.exe</PackagePath>
-      <Modified>2018-04-19T17:08:45.594</Modified>
+      <Modified>2018-04-19T18:40:54.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-04-19T17:07:12.333</Modified>
+      <Modified>2018-04-19T18:28:54.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -559,27 +559,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2018-04-19T17:05:59.041</Modified>
+      <Modified>2018-04-19T18:27:52.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-04-19T17:05:56.742</Modified>
+      <Modified>2018-04-19T18:27:50.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-04-19T17:05:53.306</Modified>
+      <Modified>2018-04-19T18:27:47.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level1">
       <PackagePath>Data\level1</PackagePath>
-      <Modified>2018-04-19T17:05:53.717</Modified>
+      <Modified>2018-04-19T18:27:48.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level2">
       <PackagePath>Data\level2</PackagePath>
-      <Modified>2018-04-19T17:05:54.084</Modified>
+      <Modified>2018-04-19T18:27:48.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level3">
       <PackagePath>Data\level3</PackagePath>
-      <Modified>2018-04-19T17:05:54.500</Modified>
+      <Modified>2018-04-19T18:27:48.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -587,63 +587,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-04-19T17:05:59.037</Modified>
+      <Modified>2018-04-19T18:27:52.740</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-04-19T17:05:57.154</Modified>
+      <Modified>2018-04-19T18:27:51.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-04-19T17:05:58.431</Modified>
+      <Modified>2018-04-19T18:27:52.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets1.assets">
       <PackagePath>Data\sharedassets1.assets</PackagePath>
-      <Modified>2018-04-19T17:05:58.496</Modified>
+      <Modified>2018-04-19T18:27:52.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets2.assets">
       <PackagePath>Data\sharedassets2.assets</PackagePath>
-      <Modified>2018-04-19T17:05:58.506</Modified>
+      <Modified>2018-04-19T18:27:52.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets3.assets">
       <PackagePath>Data\sharedassets3.assets</PackagePath>
-      <Modified>2018-04-19T17:05:58.603</Modified>
+      <Modified>2018-04-19T18:27:52.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2018-04-19T17:05:53.304</Modified>
+      <Modified>2018-04-19T18:27:47.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level1.resS">
       <PackagePath>Data\level1.resS</PackagePath>
-      <Modified>2018-04-19T17:05:53.716</Modified>
+      <Modified>2018-04-19T18:27:48.234</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level2.resS">
       <PackagePath>Data\level2.resS</PackagePath>
-      <Modified>2018-04-19T17:05:54.084</Modified>
+      <Modified>2018-04-19T18:27:48.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\level3.resS">
       <PackagePath>Data\level3.resS</PackagePath>
-      <Modified>2018-04-19T17:05:54.499</Modified>
+      <Modified>2018-04-19T18:27:48.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2018-04-19T17:05:58.431</Modified>
+      <Modified>2018-04-19T18:27:52.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets1.assets.resS">
       <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
-      <Modified>2018-04-19T17:05:58.495</Modified>
+      <Modified>2018-04-19T18:27:52.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\sharedassets3.assets.resS">
       <PackagePath>Data\sharedassets3.assets.resS</PackagePath>
-      <Modified>2018-04-19T17:05:58.602</Modified>
+      <Modified>2018-04-19T18:27:52.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-04-19T17:07:12.265</Modified>
+      <Modified>2018-04-19T18:28:54.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-04-19T17:07:12.267</Modified>
+      <Modified>2018-04-19T18:28:54.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.16299.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -656,235 +656,235 @@
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-19T17:08:46.544</Modified>
+      <Modified>2018-04-19T18:40:55.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.269</Modified>
+      <Modified>2018-04-19T18:41:09.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.274</Modified>
+      <Modified>2018-04-19T18:41:09.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.283</Modified>
+      <Modified>2018-04-19T18:41:09.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.290</Modified>
+      <Modified>2018-04-19T18:41:09.476</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.319</Modified>
+      <Modified>2018-04-19T18:41:09.510</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.326</Modified>
+      <Modified>2018-04-19T18:41:09.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.331</Modified>
+      <Modified>2018-04-19T18:41:09.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.336</Modified>
+      <Modified>2018-04-19T18:41:09.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.347</Modified>
+      <Modified>2018-04-19T18:41:09.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.353</Modified>
+      <Modified>2018-04-19T18:41:09.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.360</Modified>
+      <Modified>2018-04-19T18:41:09.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.365</Modified>
+      <Modified>2018-04-19T18:41:09.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.371</Modified>
+      <Modified>2018-04-19T18:41:09.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.386</Modified>
+      <Modified>2018-04-19T18:41:09.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.391</Modified>
+      <Modified>2018-04-19T18:41:09.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.399</Modified>
+      <Modified>2018-04-19T18:41:09.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.405</Modified>
+      <Modified>2018-04-19T18:41:09.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.418</Modified>
+      <Modified>2018-04-19T18:41:09.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.425</Modified>
+      <Modified>2018-04-19T18:41:09.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.430</Modified>
+      <Modified>2018-04-19T18:41:09.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.435</Modified>
+      <Modified>2018-04-19T18:41:09.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.443</Modified>
+      <Modified>2018-04-19T18:41:09.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.448</Modified>
+      <Modified>2018-04-19T18:41:09.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.461</Modified>
+      <Modified>2018-04-19T18:41:09.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.466</Modified>
+      <Modified>2018-04-19T18:41:09.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.475</Modified>
+      <Modified>2018-04-19T18:41:09.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.490</Modified>
+      <Modified>2018-04-19T18:41:09.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.502</Modified>
+      <Modified>2018-04-19T18:41:09.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.507</Modified>
+      <Modified>2018-04-19T18:41:09.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.162</Modified>
+      <Modified>2018-04-19T18:41:10.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.169</Modified>
+      <Modified>2018-04-19T18:41:10.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.181</Modified>
+      <Modified>2018-04-19T18:41:10.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.187</Modified>
+      <Modified>2018-04-19T18:41:10.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.193</Modified>
+      <Modified>2018-04-19T18:41:10.040</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.203</Modified>
+      <Modified>2018-04-19T18:41:10.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.211</Modified>
+      <Modified>2018-04-19T18:41:10.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.232</Modified>
+      <Modified>2018-04-19T18:41:10.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.238</Modified>
+      <Modified>2018-04-19T18:41:10.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.266</Modified>
+      <Modified>2018-04-19T18:41:10.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.273</Modified>
+      <Modified>2018-04-19T18:41:10.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-04-19T17:06:38.582</Modified>
+      <Modified>2018-04-19T18:28:25.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.278</Modified>
+      <Modified>2018-04-19T18:41:10.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.283</Modified>
+      <Modified>2018-04-19T18:41:10.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.303</Modified>
+      <Modified>2018-04-19T18:41:10.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.308</Modified>
+      <Modified>2018-04-19T18:41:10.301</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.374</Modified>
+      <Modified>2018-04-19T18:41:10.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.413</Modified>
+      <Modified>2018-04-19T18:41:10.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.456</Modified>
+      <Modified>2018-04-19T18:41:10.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.550</Modified>
+      <Modified>2018-04-19T18:41:10.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.557</Modified>
+      <Modified>2018-04-19T18:41:10.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.569</Modified>
+      <Modified>2018-04-19T18:41:10.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.588</Modified>
+      <Modified>2018-04-19T18:41:10.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.600</Modified>
+      <Modified>2018-04-19T18:41:10.644</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.677</Modified>
+      <Modified>2018-04-19T18:41:10.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2018-04-19T17:09:03.712</Modified>
+      <Modified>2018-04-19T18:41:10.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-04-19T17:09:02.262</Modified>
+      <Modified>2018-04-19T18:41:09.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Macizm\Desktop\Grad Stuff\AR - VR Research\AutsimApp2\App\AutsimApp2\bin\x86\Debug\Core\AutsimApp2.exe">
       <PackagePath>AutsimApp2.exe</PackagePath>
-      <Modified>2018-04-19T17:09:04.413</Modified>
+      <Modified>2018-04-19T18:41:15.762</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
